@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+  src: url("Roboto-Light.woff") format("woff"); }
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("Roboto-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url("Roboto-Medium.woff") format("woff"); }
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url("Roboto-Bold.woff") format("woff"); }
+:host,
+:host *,
+::content * {
+  box-sizing: border-box;
+  outline: none; }
+
+.persistentFooter {
+  position: fixed;
+  height: 44px;
+  bottom: 0px;
+  background-color: white;
+  width: 100%;
+  border-top: 1px solid #eeeeee; }
+  .persistentFooter .contentWrapper {
+    padding: 16px; }
+  .persistentFooter .actionButtonsWrapper {
+    padding-right: 16px; }
+  .persistentFooter .footerActionButton {
+    color: rgba(0, 0, 0, 0.87); }
