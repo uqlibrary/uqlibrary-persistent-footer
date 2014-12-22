@@ -4,7 +4,7 @@
   "main": "uqlibrary-persistent-footer.html",
   "license": "MIT",
   "private": true,
-  "homepage": "https://github.com/uqlibrary/uqlibrary-persistent-footer/",
+  "homepage": "https://github.com/uqlibrary/uqlibrary-persistent-footer",
   "ignore": [
     "/.*",
     "/tests/"
@@ -12,7 +12,7 @@
   "dependencies": {
     "polymer": "Polymer/polymer#^0.5.1",
     "paper-icon-button": "Polymer/paper-icon-button#^0.5.1",
-    "paper-button": "Polymer/paper-button#^0.5.1",
+    "paper-button": "Polymer/paper-button#^0.5.1"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#1.6.1"
